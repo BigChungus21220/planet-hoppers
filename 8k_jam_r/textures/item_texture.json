@@ -1,0 +1,18 @@
+{
+    "resource_pack_name" : "vanilla",
+    "texture_name" : "atlas.items",
+    "texture_data" : {
+        "space_helmet" : {
+            "textures" : "textures/items/space_helmet"
+        },
+        "space_chestplate" : {
+            "textures" : "textures/items/space_chestplate"
+        },
+        "space_leggings" : {
+            "textures" : "textures/items/space_leggings"
+        },
+        "space_boots" : {
+          "textures" : "textures/items/space_boots"
+        }
+    }
+}

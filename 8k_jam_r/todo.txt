@@ -1,0 +1,35 @@
+entities:
+crab spawning
+
+create fish behavior
+fish spawning
+make chase space shrimp
+fish drops (raw space fish)
+cooked space fish
+
+space shrimp / minnow (model + behavior)
+
+texts:
+create texts
+rename fish
+rename crab
+rename oxygen plant
+
+spaceship:
+spaceship fuel (refils spaceship)
+spaceship fuel system
+crashed spaceship
+spaceship item (like the boat item)
+
+aluminum:
+space blocks (sheet metal wall, aluminum block, ???)
+aluminum ore block and raw ore (bauxite)
+aluminum ingot
+armor crafting
+aluminum sheet
+
+oxygen:
+oxygen system
+oxygen cannister (give free on spawn + salvage from wrecks) 
+oxygen plant (refils cannister)
+
