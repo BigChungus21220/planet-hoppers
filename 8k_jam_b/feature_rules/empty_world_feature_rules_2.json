@@ -1,0 +1,28 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "ek:empty_world_feature_rules_2",
+      "places_feature": "ek:sphere_condition"
+    },
+    "conditions": {
+      "placement_pass": "before_surface_pass"
+    },
+    "distribution": {
+      "iterations": 98048,
+      "scatter_chance": 100,
+      "x": {
+        "distribution": "fixed_grid",
+        "extent": [ 0, 15 ]
+      },
+      "y": {
+        "distribution": "fixed_grid",
+        "extent": [ -64, 319 ]
+      },
+      "z": {
+        "distribution": "fixed_grid",
+        "extent": [ 0, 15 ]
+      }
+    }
+  }
+}

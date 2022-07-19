@@ -1,0 +1,14 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+      "description": {
+        "identifier": "ek:asteroid_picker"
+      },
+      "features": [
+        [ "ek:asteroid_0", 1 ],
+        [ "ek:asteroid_1", 1 ],
+        [ "ek:asteroid_2", 1 ],
+        [ "ek:asteroid_3", 1 ]
+      ]
+    }
+  }
