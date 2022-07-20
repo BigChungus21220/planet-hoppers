@@ -1,0 +1,17 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ek:jerrycan",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture":  "jerrycan"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.items"
+			}
+		}
+	}
+}

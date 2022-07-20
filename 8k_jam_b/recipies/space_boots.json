@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ek:space_boots"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "# #",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "ek:aluminum_ingot"
+      }
+    },
+    "result": {
+      "item": "ek:space_boots"
+    }
+  }
+  
+}
