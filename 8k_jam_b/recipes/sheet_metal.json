@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ek:sheet_metal"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "ek:aluminum_ingot"
+      }
+    },
+    "result": {
+      "item": "ek:sheet_metal",
+      "count": 4
+    }
+  }
+  
+}
