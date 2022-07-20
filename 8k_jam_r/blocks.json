@@ -1,0 +1,10 @@
+{
+    "oxygen_plant" : {
+        "sound" : "grass",
+        "textures" : "oxygen_plant"
+    },
+    "oxygen_plant_empty" : {
+        "sound" : "grass",
+        "textures" : "oxygen_plant_empty"
+    }
+}

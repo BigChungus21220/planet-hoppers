@@ -1,0 +1,14 @@
+{
+   "num_mip_levels" : 4,
+   "padding" : 8,
+   "resource_pack_name" : "vanilla",
+   "texture_name" : "atlas.terrain",
+   "texture_data" : {
+      "oxygen_plant" : {
+         "textures" : "textures/blocks/oxygen_plant"
+      },
+      "oxygen_plant_empty" : {
+         "textures" : "textures/blocks/oxygen_plant_empty"
+      }
+   }
+}
