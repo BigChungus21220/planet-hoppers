@@ -29,7 +29,11 @@ armor crafting
 aluminum sheet
 
 oxygen:
-oxygen system
-oxygen cannister (give free on spawn + salvage from wrecks) 
-oxygen plant (refils cannister)
+oxygen plant spawning
+
+sound:
+music?
+space thrusters
+oxygen capsule
+mob noises?
 

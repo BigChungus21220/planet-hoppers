@@ -1,4 +1,25 @@
+
 {
-	"format_version": "1.14.0",
-	"sound_definitions": {}
+   "format_version" : "1.14.0",
+   "sound_definitions" : {
+      "ek.thrusters" : {
+         "max_distance": 25.0,
+         "category" : "neutral",
+         "sounds" : [
+            {
+               "name" : "sounds/ek/thrusters"
+            }
+         ]
+      },
+      "ek.oxygen_capsule" : {
+         "max_distance": 15.0,
+         "category" : "neutral",
+         "sounds" : [
+            {
+               "name" : "sounds/ek/oxygen_capsule",
+               "volume" : 1
+            }
+         ]
+      }
+   }
 }

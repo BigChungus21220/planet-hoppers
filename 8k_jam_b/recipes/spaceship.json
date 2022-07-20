@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ek:spaceship"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " O ",
+      "#X#",
+      "VVV"
+    ],
+    "key": {
+      "#": {
+        "item": "ek:sheet_metal"
+      },
+      "X": {
+        "item": "ek:aluminum_ingot"
+      },
+      "O": {
+        "item": "minecraft:glass"
+      },
+      "V": {
+        "item": "ek:thruster"
+      }
+    },
+    "result": {
+      "item": "ek:spaceship_item"
+    }
+  }
+  
+}

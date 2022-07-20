@@ -1,17 +1,14 @@
 {
-	"num_mip_levels": 4,
-	"padding": 8,
-	"resource_pack_name": "Planet-Hoppers",
-	"texture_name": "atlas.terrain",
-	"texture_data": {
-		"ek_aluminum_block": {
-			"textures": "textures/blocks/aluminum_block"
-		},
-		"ek_space_rock": {
-			"textures": "textures/blocks/space_rock"
-		},
-		"ek_aluminum_ore": {
-			"textures": "textures/blocks/aluminum_ore"
-		}
-	}
+   "num_mip_levels" : 4,
+   "padding" : 8,
+   "resource_pack_name" : "vanilla",
+   "texture_name" : "atlas.terrain",
+   "texture_data" : {
+      "oxygen_plant" : {
+         "textures" : "textures/blocks/oxygen_plant"
+      },
+      "oxygen_plant_empty" : {
+         "textures" : "textures/blocks/oxygen_plant_empty"
+      }
+   }
 }

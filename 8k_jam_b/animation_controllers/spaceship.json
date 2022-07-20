@@ -1,0 +1,26 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.spaceship": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"wait": "(1.0)"
+						}
+					]
+				},
+				"wait": {
+					"transitions": [
+						{
+							"default": "query.has_rider"
+						}
+					],
+					"on_entry": [
+						"/function spaceship_still"
+					]
+				}
+			}
+		}
+	}
+}

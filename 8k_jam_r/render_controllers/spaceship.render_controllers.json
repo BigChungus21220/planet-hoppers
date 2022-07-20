@@ -4,7 +4,7 @@
     "controller.render.spaceship": {
       "geometry": "Geometry.default",
       "materials": [ { "*": "Material.default" } ],
-      "textures": [ "!q.is_on_ground ? Texture.engines_on : Texture.default" ]
+      "textures": [ "!q.is_on_ground && q.skin_id == 1 ? Texture.engines_on : Texture.default" ]
     }
   }
 }

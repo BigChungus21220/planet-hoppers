@@ -10,7 +10,7 @@
 		},
 		"components": {
 			"minecraft:emitter_rate_instant": {
-				"num_particles": "q.is_on_ground ? 0 : 1"
+				"num_particles": "!q.is_on_ground && q.skin_id == 1? 1 : 0"
 			},
 			"minecraft:emitter_lifetime_looping": {
 				"active_time": 0.1
