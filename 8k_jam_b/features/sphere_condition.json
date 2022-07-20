@@ -2,23 +2,12 @@
     "format_version": "1.13.0",
     "minecraft:conditional_list": {
         "description": {
-        "identifier": "ek:sphere_condition"
+            "identifier": "ek:sphere_condition"
         },
-        "conditional_features" : [
-            { 
-                "places_feature" : "ek:air_block",
-                "condition" : "
-                    v.scale = 100;
-                    v.px = v.worldx/v.scale;
-                    v.py = v.worldy/v.scale;
-                    v.pz = v.worldz/v.scale;
-                    v.d = math.sqrt(
-                        math.pow(v.px - (math.floor(v.px) + 0.5),2) + 
-                        math.pow(v.py - (math.floor(v.py) + 0.5),2) + 
-                        math.pow(v.pz - (math.floor(v.pz) + 0.5),2)
-                    );
-                    return v.d > 0.3;
-                "
+        "conditional_features": [
+            {
+                "places_feature": "ek:air_block",
+                "condition": " v.scale = 100; v.px = v.worldx/v.scale; v.py = v.worldy/v.scale; v.pz = v.worldz/v.scale; v.d = math.sqrt( math.pow(v.px - (math.floor(v.px) + 0.5),2) +  math.pow(v.py - (math.floor(v.py) + 0.5),2) +  math.pow(v.pz - (math.floor(v.pz) + 0.5),2) ); return v.d > 0.3; "
             }
         ]
     }

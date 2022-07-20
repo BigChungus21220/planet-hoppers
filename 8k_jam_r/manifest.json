@@ -25,5 +25,15 @@
 				0
 			]
 		}
-	]
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"2.3.0"
+			],
+			"dash": [
+				"0.8.28"
+			]
+		}
+	}
 }
