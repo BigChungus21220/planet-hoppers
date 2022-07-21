@@ -17,7 +17,7 @@ https://trioplane.github.io/planet-hoppers-website/
 
 Best experienced in survival
 
-Use /playsound ek.cosmo to play the music
+Use /playsound ek.cosmo @s to play the music
 
 .
 
