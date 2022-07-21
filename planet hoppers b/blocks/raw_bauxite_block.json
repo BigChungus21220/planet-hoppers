@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ek:raw_bauxite_block"
+		},
+		"components": {
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "ek_raw_bauxite_block",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:creative_category": {
+				"category": "construction"
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:destroy_time": 0.8
+		}
+	}
+}

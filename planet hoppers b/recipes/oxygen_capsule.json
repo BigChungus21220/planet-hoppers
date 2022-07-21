@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ek:oxygen_capsule"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#",
+      "X",
+      "#"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:glass"
+      },
+      "#": {
+        "item": "ek:aluminum_ingot"
+      }
+    },
+    "result": {
+      "item": "ek:oxygen_capsule"
+    }
+  }
+  
+}

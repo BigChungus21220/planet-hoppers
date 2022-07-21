@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ek:space_rock"
+		},
+		"components": {
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "ek_space_rock",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:creative_category": {
+				"category": "construction"
+			},
+			"minecraft:friction": 0.6,
+			"minecraft:destroy_time": 0.8,
+			"minecraft:block_light_absorption": 0
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:structure_template_feature": {
+      "description": {
+        "identifier": "ek:asteroid_2"
+      },
+      "structure_name": "mystructure:asteroid_2",
+      "adjustment_radius": 8,
+      "facing_direction": "random",
+      "constraints": {
+        "block_intersection": {
+          "block_allowlist": [
+            "minecraft:air",
+            "minecraft:water"
+          ]
+        }
+      }
+    }
+  }

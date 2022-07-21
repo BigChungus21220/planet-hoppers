@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "ek:space_crab",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:weight": {
+          "default": 10
+        },
+        "minecraft:density_limit": {
+          "surface": 8
+        }
+      }
+    ]
+  }
+}

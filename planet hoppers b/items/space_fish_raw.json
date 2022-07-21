@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ek:space_fish_raw",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "space_fish_raw"
+			},
+			"minecraft:stacked_by_data": true,
+			"minecraft:max_stack_size": 64,
+			"minecraft:use_duration": 1.5,
+			"minecraft:use_animation": "eat",
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.rawFood"
+			},
+			"minecraft:food": {
+				"nutrition": 1,
+				"saturation_modifier": "poor",
+				"can_always_eat": false
+			}
+		}
+	}
+}

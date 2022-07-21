@@ -1,0 +1,24 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "ek:space_fish",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:weight": {
+          "default": 10
+        },
+        "minecraft:density_limit": {
+          "surface": 8
+        },
+        "minecraft:herd": {
+          "min_size":1,
+          "max_size":2
+        }
+      }
+    ]
+  }
+}

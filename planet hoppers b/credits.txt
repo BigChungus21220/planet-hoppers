@@ -1,0 +1,26 @@
+cubemap:
+
+image: NASA, ESA, STScI
+https://hubblesite.org/contents/media/images/2021/017/01F3N8X6NC69Y1ME5AXW3AGFG8?Type=Observations&page=2&filterUUID=4c394bbb-b21e-43ab-a160-2a4521d70243
+
+cube map generator site by Lucas Crane on Github 
+https://jaxry.github.io/panorama-to-cubemap/
+
+
+sounds:
+
+oxygen cannister - Inhaler Puff 170427_1464 by megashroom on freesound.org
+
+thrusters - Jet Engine by m_cel on freesound.org
+
+music - cosmo by Gilangz YT
+
+
+Team:
+BigChungus21220#0893 - team lead, programmer, artist
+Artistic-Waffle#0585 - programmer, artist
+Trplnr#8852 - artist
+Matti#2942 - artist
+Gilangz YT#6460 - artist
+louis#7570 - artist
+Crimson Dove#8018 - recruitment

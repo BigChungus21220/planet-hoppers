@@ -1,0 +1,25 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "ek:oxygen_plant_feature_rules",
+      "places_feature": "ek:oxygen_plant"
+    },
+    "conditions": {
+      "placement_pass": "final_pass"
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 100,
+      "x": {
+        "distribution": "uniform",
+        "extent": [ 0, 15 ]
+      },
+      "y": "query.above_top_solid(v.worldx, v.worldz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [ 0, 15 ]
+      }
+    }
+  }
+}

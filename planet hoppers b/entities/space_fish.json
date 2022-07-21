@@ -1,0 +1,125 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ek:space_fish",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    
+    "components": {
+      "minecraft:nameable": {},
+      "minecraft:balloonable": {},
+        "minecraft:leashable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0
+        },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/space_fish.json"
+      },
+      "minecraft:type_family": {
+        "family": [ "space_fish", "ambient" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.4,
+        "height": 0.4
+      },
+      "minecraft:health": {
+        "value": 2,
+        "max": 2
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": false
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "attack_interval_min": 1,
+        "attack_interval": 2,
+        "priority": 2,
+        "must_see": false,
+        "within_radius": 20.0,
+        "must_see_forget_duration": 17.0,
+        "persist_time": 0.5,
+        "entity_types": [
+          {
+            "filters": {
+              "all_of": [
+                {"test": "is_family", "subject": "other", "value": "space_shrimp"}
+              ]
+            },
+            "max_dist": 15
+          }
+        ]
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 1,
+        "speed_multiplier": 1.5,
+        "track_target": true,
+        "require_complete_path": false
+      },
+      "minecraft:attack": {
+        "damage": 4
+      },
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.2
+      },
+			"minecraft:flying_speed": {
+				"value": 0.2
+			},
+			"minecraft:navigation.hover": {
+				"can_path_over_water": true,
+				"can_sink": false,
+				"can_pass_doors": false,
+				"can_path_from_air": true,
+				"avoid_water": true,
+				"avoid_damage_blocks": true,
+				"avoid_sun": false
+			},
+      "minecraft:movement.hover": {},
+      "minecraft:jump.static": {},
+			"minecraft:can_fly": {},
+			"minecraft:physics": {
+				"has_gravity": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:behavior.float": {
+				"priority": 1
+			},
+      "minecraft:behavior.random_hover": {
+				"priority": 0,
+				"xz_dist": 16,
+				"y_dist": 16,
+				"y_offset": -1,
+				"interval": 3,
+				"hover_height": [ 5, 10 ]
+			},
+      "minecraft:conditional_bandwidth_optimization": {
+      }
+    }
+  }
+}
