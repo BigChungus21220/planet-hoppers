@@ -2,13 +2,13 @@
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "ek:aluminum_ore"
+			"identifier": "ek:bauxite_ore"
 		},
 		"components": {
 			"minecraft:unit_cube": {},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "ek_aluminum_ore",
+					"texture": "ek_bauxite_ore",
 					"render_method": "opaque"
 				}
 			},
@@ -16,7 +16,8 @@
 				"category": "construction"
 			},
 			"minecraft:block_light_absorption": 0,
-			"minecraft:destroy_time": 0.8
+			"minecraft:destroy_time": 0.8,
+			"minecraft:loot": "loot_tables/raw_bauxite.json"
 		}
 	}
 }
