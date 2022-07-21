@@ -17,36 +17,61 @@ https://trioplane.github.io/planet-hoppers-website/
 Best experienced in survival
 Use /playsound ek.cosmo to play the music
 
+
 World gen:
 world now generates as a grid of spheres with asteroids overhead
 
+
 New mobs:
+
 astral shrimp
+
 cosmic trout
+
 planet keeper
 
+
 New blocks:
-Bauxite
-Raw Bauxite Block
+
+bauxite
+
+raw bauxite block
+
 aluminum block
+
 sheet metal block
+
 bubble bulb plant
 
+
 New items:
+
 oxygen canister (full & empty)
+
 space suit
+
 sheet metal
+
 aluminum ingot
+
 raw bauxite
+
 thruster
+
 cooked & raw cosmic trout
+
 jerrycan
 
 Spaceship:
+
 keeps your oxygen full
+
 requires jerrycans to fly
 
+
 Oxygen:
+
 use bubble bulb plants to refill your oxygen
+
 store oxygen for later use in canisters
 
