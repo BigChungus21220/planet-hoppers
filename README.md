@@ -14,7 +14,9 @@ https://trioplane.github.io/planet-hoppers-website/
 - Artistic-Waffle#0585
 
 # Showcase Instructions
+
 Best experienced in survival
+
 Use /playsound ek.cosmo to play the music
 
 .
