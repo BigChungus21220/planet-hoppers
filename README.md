@@ -17,15 +17,13 @@ https://trioplane.github.io/planet-hoppers-website/
 Best experienced in survival
 Use /playsound ek.cosmo to play the music
 
-
-
+.
 
 World gen:
 
 world now generates as a grid of spheres with asteroids overhead
 
-
-
+.
 
 New mobs:
 
@@ -35,8 +33,7 @@ cosmic trout
 
 planet keeper
 
-
-
+.
 
 New blocks:
 
@@ -50,8 +47,7 @@ sheet metal block
 
 bubble bulb plant
 
-
-
+.
 
 New items:
 
@@ -71,14 +67,15 @@ cooked & raw cosmic trout
 
 jerrycan
 
+.
+
 Spaceship:
 
 keeps your oxygen full
 
 requires jerrycans to fly
 
-
-
+.
 
 Oxygen:
 
