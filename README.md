@@ -17,7 +17,7 @@ https://trioplane.github.io/planet-hoppers-website/
 Best experienced in survival
 Use /playsound ek.cosmo to play the music
 
-Wolrd gen:
+World gen:
 world now generates as a grid of spheres with asteroids overhead
 
 New mobs:
