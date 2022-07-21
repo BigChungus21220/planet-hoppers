@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ek:space_crab",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/entity/space_crab"
+      },
+      "geometry": {
+        "default": "geometry.space_crab"
+      },
+      "animations": {
+        "walk": "animation.space_crab.walk",
+        "attack": "animation.space_crab.attack"
+      },
+      "scripts": {
+        "animate": [
+          "walk",
+          {"attack": "v.attack_time >= 0.0"}
+        ]
+      },
+      "render_controllers": [ "controller.render.bat" ],
+      "spawn_egg": {
+        "base_color": "#998954",
+        "overlay_color": "#ffce95"
+      }
+    }
+  }
+}

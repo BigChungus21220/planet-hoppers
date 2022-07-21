@@ -1,0 +1,55 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ek:spaceship",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"particle_effects": {
+				"engine_particle": "ek:engine_particle"
+			},
+			"sound_effects": {
+				"engine_0": "ek.thrusters_0",
+				"engine_1": "ek.thrusters_1",
+				"engine_2": "ek.thrusters_2",
+				"engine_3": "ek.thrusters_3",
+				"engine_4": "ek.thrusters_4",
+				"engine_5": "ek.thrusters_5",
+				"engine_6": "ek.thrusters_6",
+				"engine_7": "ek.thrusters_7"
+			},
+			"textures": {
+				"default": "textures/entity/spaceship",
+				"engines_on": "textures/entity/spaceship_engines_on"
+			},
+			"geometry": {
+				"default": "geometry.spaceship"
+			},
+			"render_controllers": [
+				"controller.render.spaceship"
+			],
+			"animations": {
+				"roll": "animation.spaceship.roll",
+				"sound": "animation.spaceship.sound",
+				"wheels": "animation.spaceship.wheels",
+				"engines_on": "controller.animation.spaceship.engines",
+				"engine_particle_timer": "animation.spaceship.engine_particle_timer"
+			},
+			"scripts":{
+				"initialize": [
+					"v.target_roll = 0;"
+				],
+				"pre_animation":[					
+					"v.target_roll = v.target_roll + (query.yaw_speed/2 - v.target_roll)/3;"
+				],
+				"animate": [
+					{"wheels": "q.is_on_ground && q.ground_speed > 1"},
+					"roll",
+					{ "sound": "!q.is_on_ground"},
+					{"engines_on": "!q.is_on_ground"}
+				]
+			}
+		}
+	}
+}

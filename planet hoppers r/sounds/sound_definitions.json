@@ -1,0 +1,213 @@
+{
+   "format_version" : "1.14.0",
+   "sound_definitions" : {
+      "ek.thrusters_0" : {
+         "max_distance": 25.0,
+         "category" : "neutral",
+         "sounds" : [
+            {
+               "name" : "sounds/ek/thrusters_0",
+               "volume" : 0.5
+            }
+         ]
+      },
+      "ek.thrusters_1" : {
+         "max_distance": 25.0,
+         "category" : "neutral",
+         "sounds" : [
+            {
+               "name" : "sounds/ek/thrusters_1",
+               "volume" : 0.5
+            }
+         ]
+      },
+      "ek.thrusters_2" : {
+         "max_distance": 25.0,
+         "category" : "neutral",
+         "sounds" : [
+            {
+               "name" : "sounds/ek/thrusters_2",
+               "volume" : 0.5
+            }
+         ]
+      },
+      "ek.thrusters_3" : {
+         "max_distance": 25.0,
+         "category" : "neutral",
+         "sounds" : [
+            {
+               "name" : "sounds/ek/thrusters_3",
+               "volume" : 0.5
+            }
+         ]
+      },
+      "ek.thrusters_4" : {
+         "max_distance": 25.0,
+         "category" : "neutral",
+         "sounds" : [
+            {
+               "name" : "sounds/ek/thrusters_4",
+               "volume" : 0.5
+            }
+         ]
+      },
+      "ek.thrusters_5" : {
+         "max_distance": 25.0,
+         "category" : "neutral",
+         "sounds" : [
+            {
+               "name" : "sounds/ek/thrusters_5",
+               "volume" : 0.5
+            }
+         ]
+      },
+      "ek.thrusters_6" : {
+         "max_distance": 25.0,
+         "category" : "neutral",
+         "sounds" : [
+            {
+               "name" : "sounds/ek/thrusters_6",
+               "volume" : 0.5
+            }
+         ]
+      },
+      "ek.thrusters_7" : {
+         "max_distance": 25.0,
+         "category" : "neutral",
+         "sounds" : [
+            {
+               "name" : "sounds/ek/thrusters_7",
+               "volume" : 0.5
+            }
+         ]
+      },
+      "ek.oxygen_capsule" : {
+         "max_distance": 15.0,
+         "category" : "neutral",
+         "sounds" : [
+            {
+               "name" : "sounds/ek/oxygen_capsule",
+               "volume" : 1
+            }
+         ]
+      },
+      "ek.cosmo": {
+         "max_distance": 30.0,
+         "category" : "music",
+         "sounds" : [
+            {
+               "name" : "sounds/ek/cosmo",
+               "volume" : 1
+            }
+         ] 
+      },
+      "music.game" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "music",
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/calm1",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/calm2",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/calm3",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/hal1",
+               "stream" : true,
+               "volume" : 0.10
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/hal2",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/hal3",
+               "stream" : true,
+               "volume" : 0.10
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/hal4",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/nuance1",
+               "stream" : true,
+               "volume" : 0.30
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/nuance2",
+               "stream" : true,
+               "volume" : 0.30
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/piano1",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/piano2",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/piano3",
+               "stream" : true,
+               "volume" : 0.20
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/one_more_day",
+               "stream" : true,
+               "volume" : 0.40
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/floating_dream",
+               "stream" : true,
+               "volume" : 0.40
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/left_to_bloom",
+               "stream" : true,
+               "volume" : 0.40
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/music/game/comforting_memories",
+               "stream" : true,
+               "volume" : 0.40
+            },
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/ek/cosmo",
+               "stream" : true,
+               "volume" : 0.40
+            }
+         ]
+      }
+   }
+}

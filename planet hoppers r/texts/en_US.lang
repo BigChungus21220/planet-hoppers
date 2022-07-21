@@ -1,0 +1,35 @@
+tile.ek:oxygen_plant.name=Bubble Bulb Plant
+tile.ek:oxygen_plant_empty.name=Bubble Bulb Plant
+tile.ek:raw_bauxite_block.name=Raw Bauxite Block
+tile.ek:bauxite_ore.name=Bauxite
+tile.ek:aluminum_block.name=Aluminum Block
+tile.ek:sheet_metal_block.name=Sheet Metal Block
+tile.ek:space_rock.name=Space Rock
+
+item.spawn_egg.entity.ek:space_crab.name=Spawn Planet Keeper
+item.spawn_egg.entity.ek:space_shrimp.name=Spawn Astral Krill
+item.spawn_egg.entity.ek:space_fish.name=Spawn Cosmic Trout
+
+entity.ek:space_crab.name=Planet Keeper
+entity.ek:space_fish.name=Cosmic Trout
+entity.ek:space_shrimp.name=Astral Krill
+entity.ek:spaceship.name=Spaceship
+
+item.ek:spaceship_item=Spaceship
+item.ek:space_fish_raw=Raw Cosmic Trout
+item.ek:space_fish_Cooked=Cooked Cosmic Trout
+item.ek:raw_bauxite=Raw Bauxite
+item.ek:aluminum_ingot=Aluminum Ingot
+item.ek:sheet_metal=Sheet Metal
+item.ek:jerrycan=Jerrycan
+item.ek:oxygen_capsule=Oxygen Canister
+item.ek:oxygen_capsule_empty=Empty Oxygen Canister
+item.ek:oxygen_plant_item=Bubble Bulb Plant
+item.ek:space_helmet=Space Helmet
+item.ek:space_chestplate=Space Chestplate
+item.ek:space_leggings=Space Leggings
+item.ek:space_boots=Space Boots
+item.ek:thruster=Thruster
+
+death.attack.inWall=%1$s ran out of air
+death.attack.outOfWorld=%1$s fell into a black hole

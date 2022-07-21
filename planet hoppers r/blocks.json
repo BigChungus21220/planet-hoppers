@@ -1,0 +1,30 @@
+{
+    "oxygen_plant" : {
+        "sound" : "grass",
+        "textures" : "oxygen_plant"
+    },
+    "oxygen_plant_empty" : {
+        "sound" : "grass",
+        "textures" : "oxygen_plant_empty"
+    },
+    "bauxite_ore" : {
+        "sound" : "basalt",
+        "textures" : "ek_bauxite_ore"
+    },
+    "raw_bauxite_block" : {
+        "sound" : "basalt",
+        "textures" : "ek_raw_bauxite_block"
+    },
+    "aluminum_block" : {
+        "sound" : "metal",
+        "textures" : "ek_aluminum_block"
+    },
+    "sheet_metal_block" : {
+        "sound" : "metal",
+        "textures" : "ek_sheet_metal_block"
+    },
+    "space_rock" : {
+        "sound" : "stone",
+        "textures" : "ek_space_rock"
+    }
+}

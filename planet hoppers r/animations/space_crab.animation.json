@@ -1,0 +1,88 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.space_crab.walk": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"body": {
+					"position": [0, "math.cos(query.anim_time*100*2)-0.5", 0]
+				},
+				"leg4": {
+					"rotation": [0, 0, "-math.cos(query.anim_time*100)*20-15"]
+				},
+				"leg3": {
+					"rotation": [0, 0, "math.cos(query.anim_time*100)*20-15"]
+				},
+				"leg2": {
+					"rotation": [0, 0, "-math.cos(query.anim_time*100)*20-15"]
+				},
+				"leg": {
+					"rotation": [0, 0, "math.cos(query.anim_time*100)*20-15"]
+				},
+				"leg5": {
+					"rotation": [0, 0, "math.cos(query.anim_time*100)*20 + 15"]
+				},
+				"leg6": {
+					"rotation": [0, 0, "-math.cos(query.anim_time*100)*20 + 15"]
+				},
+				"leg7": {
+					"rotation": [0, 0, "math.cos(query.anim_time*100)*20 + 15"]
+				},
+				"leg8": {
+					"rotation": [0, 0, "-math.cos(query.anim_time*100)*20 + 15"]
+				},
+				"lower": {
+					"rotation": [0, 0, "math.sin(query.anim_time*100)*20"]
+				},
+				"lower2": {
+					"rotation": [0, 0, "-math.sin(query.anim_time*100)*20-15"]
+				},
+				"lower3": {
+					"rotation": [0, 0, "math.sin(query.anim_time*100)*20"]
+				},
+				"lower4": {
+					"rotation": [0, 0, "-math.sin(query.anim_time*100)*20"]
+				},
+				"lower5": {
+					"rotation": [0, 0, "-math.sin(query.anim_time*100)*20"]
+				},
+				"lower6": {
+					"rotation": [0, 0, "math.sin(query.anim_time*100)*20"]
+				},
+				"lower7": {
+					"rotation": [0, 0, "-math.sin(query.anim_time*100)*20"]
+				},
+				"lower8": {
+					"rotation": [0, 0, "math.sin(query.anim_time*100)*20"]
+				}
+			}
+		},
+		"animation.space_crab.attack": {
+			"animation_length": 0.41667,
+			"bones": {
+				"claw": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.125": [7.5, -30, 0],
+						"0.25": {"pre": [7.5, -30, 0], "post": [7.5, -10, 0]},
+						"0.375": [0, 0, 0]
+					}
+				},
+				"claw2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.125": [7.5, -20, 0],
+						"0.25": {"pre": [7.5, -20, 0], "post": [7.5, -25, 0]},
+						"0.375": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.125": [0, 0, -1],
+						"0.375": {"pre": [0, 0, -1], "post": [0, 0, 0]}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.spaceship.wheels": {
+			"loop": true,
+			"animation_length": 0.125,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"wheel": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.125": [90, 0, 0]
+					}
+				},
+				"wheel2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.125": [90, 0, 0]
+					}
+				},
+				"wheel3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.125": [90, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.spaceship.roll": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, "-Math.clamp(v.target_roll * 0.5,-20,20)"]
+				},
+				"thruster": {
+					"rotation": [0, "-Math.clamp(v.target_roll * 0.9,-15,15)", 0]
+				},
+				"thruster2": {
+					"rotation": [0, "-Math.clamp(v.target_roll * 0.9,-15,15)", 0]
+				},
+				"thruster3": {
+					"rotation": [0, "-Math.clamp(v.target_roll * 1,-15,15)", 0]
+				}
+			}
+		},
+		"animation.spaceship.engine_particle_timer": {
+			"animation_length": 0.01
+		},
+		"animation.spaceship.sound": {
+			"loop": true,
+			"animation_length": 4.4,
+			"bones": {
+				"root": {
+					"rotation": [0, 0, 0]
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "engine_0"
+				},
+				"0.55": {
+					"effect": "engine_1"
+				},
+				"1.1": {
+					"effect": "engine_2"
+				},
+				"1.65": {
+					"effect": "engine_3"
+				},
+				"2.2": {
+					"effect": "engine_4"
+				},
+				"2.75": {
+					"effect": "engine_5"
+				},
+				"3.3": {
+					"effect": "engine_6"
+				},
+				"3.85": {
+					"effect": "engine_7"
+				}
+			}
+		}
+	}
+}
