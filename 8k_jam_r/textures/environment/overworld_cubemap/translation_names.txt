@@ -1,6 +1,0 @@
-px = right = cubemap_1
-py = up = cubemap_4
-pz = front = cubemap_0
-nx = left = cubemap_3
-ny = down = cubemap_5
-nz = back = cubemap_2
