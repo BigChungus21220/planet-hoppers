@@ -18,8 +18,10 @@ Best experienced in survival
 Use /playsound ek.cosmo to play the music
 
 
+
 World gen:
 world now generates as a grid of spheres with asteroids overhead
+
 
 
 New mobs:
@@ -29,6 +31,7 @@ astral shrimp
 cosmic trout
 
 planet keeper
+
 
 
 New blocks:
@@ -42,6 +45,7 @@ aluminum block
 sheet metal block
 
 bubble bulb plant
+
 
 
 New items:
@@ -67,6 +71,7 @@ Spaceship:
 keeps your oxygen full
 
 requires jerrycans to fly
+
 
 
 Oxygen:
