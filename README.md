@@ -19,8 +19,11 @@ Use /playsound ek.cosmo to play the music
 
 
 
+
 World gen:
+
 world now generates as a grid of spheres with asteroids overhead
+
 
 
 
@@ -31,6 +34,7 @@ astral shrimp
 cosmic trout
 
 planet keeper
+
 
 
 
@@ -45,6 +49,7 @@ aluminum block
 sheet metal block
 
 bubble bulb plant
+
 
 
 
@@ -71,6 +76,7 @@ Spaceship:
 keeps your oxygen full
 
 requires jerrycans to fly
+
 
 
 
