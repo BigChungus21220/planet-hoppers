@@ -26,8 +26,8 @@ cosmic trout
 planet keeper
 
 New blocks:
-bauxite
-raw bauxite block
+Bauxite
+Raw Bauxite Block
 aluminum block
 sheet metal block
 bubble bulb plant
