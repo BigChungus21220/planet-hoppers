@@ -2,7 +2,7 @@
 ![spaceship](https://user-images.githubusercontent.com/31514218/180110269-f816a150-6d1e-4572-a8bd-81b4f7b94d22.gif)
 
 
-https://trioplane.github.io/planet-hoppers-website/
+https://trioplane.github.io/planet-hoppers/
 
 # Team:
 - BigChungus21220#0893
@@ -19,15 +19,15 @@ Best experienced in survival
 
 Use /playsound ek.cosmo @s to play the music
 
-.
 
-World gen:
+
+# World gen:
 
 world now generates as a grid of spheres with asteroids overhead
 
-.
 
-New mobs:
+
+# New mobs:
 
 astral shrimp
 
@@ -35,9 +35,9 @@ cosmic trout
 
 planet keeper
 
-.
 
-New blocks:
+
+# New blocks:
 
 bauxite
 
@@ -49,9 +49,9 @@ sheet metal block
 
 bubble bulb plant
 
-.
 
-New items:
+
+# New items:
 
 oxygen canister (full & empty)
 
@@ -69,17 +69,17 @@ cooked & raw cosmic trout
 
 jerrycan
 
-.
 
-Spaceship:
+
+# Spaceship:
 
 keeps your oxygen full
 
 requires jerrycans to fly
 
-.
 
-Oxygen:
+
+# Oxygen:
 
 use bubble bulb plants to refill your oxygen
 
